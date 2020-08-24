@@ -4,9 +4,7 @@ index = 0
 
 def valid_move?(board, index)
   if position_taken?(board, taken)
-  else board[index] == 100.between(0,8)
-
- end
+  end
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
