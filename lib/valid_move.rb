@@ -1,10 +1,10 @@
 # code your #valid_move? method here
-board = [" ", " ", "X", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 0
 
 def valid_move?(board, index)
   if position_taken?(board, index)
-  else board[0].between?(0, 8)
+  else board[index].between?()
  end
 end
 
